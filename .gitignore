@@ -1,4 +1,6 @@
 *.py[cod]
+.vscode
+briskdb.json
 
 # C extensions
 *.so
@@ -66,3 +68,4 @@ docs/_build
 
 # Mypy Cache
 .mypy_cache/
+
