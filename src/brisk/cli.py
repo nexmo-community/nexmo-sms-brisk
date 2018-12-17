@@ -16,6 +16,7 @@ Why does this file exist, and why not put this in __main__?
 """
 import click
 from brisk.contacts import contact
+from brisk.templates import template
 
 
 @click.group()
@@ -27,3 +28,4 @@ def main():
 
 
 main.add_command(contact)
+main.add_command(template)

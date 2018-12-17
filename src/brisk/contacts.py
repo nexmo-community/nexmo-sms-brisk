@@ -125,4 +125,4 @@ def contact_remove():
     answers = prompt(questions, style=questions_style)
     contacts_db.remove(doc_ids=answers["delete"])
 
-    click.echo(f"Removed {len(answers["delete"])} contact(s)")
+    click.echo(f"Removed {len(answers['delete'])} contact(s)")
